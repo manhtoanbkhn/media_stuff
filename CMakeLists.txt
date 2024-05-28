@@ -16,6 +16,7 @@ qt_add_qml_module(appmedia_stuff
     URI media_stuff
     VERSION 1.0
     QML_FILES Main.qml
+    SOURCES image_handler.h image_handler.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
